@@ -26,5 +26,5 @@ public abstract class Person {
         this.id = id;
     }
 
-    abstract void displayInfo();
+    abstract void getDetails();
 }
