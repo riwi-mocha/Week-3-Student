@@ -72,6 +72,10 @@ class Student extends Person {
     public void setProfession(String profession) {
         this.profession = profession;
     }
+
+    public void info(){
+        System.out.println("ID: "+getId()+" - Nombre: "+getName()+" - Edad: "+getAge()+" - Email: "+getEmail()+" - Profesión: "+getProfession());
+    }
     
 
 }
