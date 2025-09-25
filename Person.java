@@ -84,13 +84,13 @@ class adminRepository implements Repository {
     }
 
     @Override
-    public void update(String id) {
-        students.get(id);
+    public void update(String id, Student Student) {
+        students.put(id, Student);
     }
 
     @Override
     public void delete(String id) {
-        students.get(id);
+        students.remove(id);
     }
     @Override
     public Student readId(String id) {

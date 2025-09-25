@@ -6,7 +6,7 @@ public interface Repository {
     
     Student readId(String id);      
 
-    void update(String Student); 
+    void update(String id, Student Student); 
 
     void delete(String id);   
 
