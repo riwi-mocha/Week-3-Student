@@ -4,11 +4,11 @@ public interface Repository {
     
     void create(Student  Student);       
     
-    Student readId(int id);      
+    Student readId(String id);      
 
-    void update(Student Student); 
+    void update(String Student); 
 
-    void Delete(String id);   
+    void delete(String id);   
 
     List<Student> readAll();      
 }
